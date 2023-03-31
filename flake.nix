@@ -20,6 +20,7 @@
           typelevelShell = {
 		    jdk.package = pkgs.jdk17;
           };
+          packages = with pkgs; [ sqlite ];
         };
       }
     );
