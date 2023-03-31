@@ -9,6 +9,7 @@ object Version {
   lazy val fs2                = "3.6.1"
   lazy val http4s             = "0.23.18"
   lazy val mouse              = "1.2.1"
+  lazy val quill              = "4.5.0"
   lazy val scalacheck         = "1.17.0"
   lazy val scalatest          = "3.2.15"
   lazy val scalatestPlusCheck = scalatest + ".0"

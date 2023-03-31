@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion  := Version.scala
+ThisBuild / scalaVersion := Version.scala
 
 val sharedSettings = Seq(
   scalaVersion := Version.scala,
@@ -27,6 +27,8 @@ lazy val core =
         "org.typelevel"     %% "mouse"               % Version.mouse,
         "co.fs2"            %% "fs2-core"            % Version.fs2,
         "co.fs2"            %% "fs2-io"              % Version.fs2,
+        "io.getquill"       %% "quill-jdbc"          % Version.quill,
+        "org.xerial"         % "sqlite-jdbc"         % "3.41.2.1",
         "org.http4s"        %% "http4s-ember-server" % Version.http4s,
         "org.http4s"        %% "http4s-dsl"          % Version.http4s,
         "org.scalatest"     %% "scalatest"           % Version.scalatest          % Test,
